@@ -12,7 +12,7 @@ public class Todo {
     private String nome;
     private String descricao;
     private boolean realizado;
-    private int priooridade;
+    private int prioridade;
 
     public Long getId() {
         return id;
@@ -47,10 +47,10 @@ public class Todo {
     }
 
     public int getPriooridade() {
-        return priooridade;
+        return prioridade;
     }
 
     public void setPriooridade(int priooridade) {
-        this.priooridade = priooridade;
+        this.prioridade = priooridade;
     }
 }
